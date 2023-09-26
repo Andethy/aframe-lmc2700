@@ -6,12 +6,31 @@
   </head>
 
   <body>
-    <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
-    </a-scene>
+  <a-scene>
+
+    <a-entity position="-1 2 -1">
+      <a-entity position="0 0 0" geometry="primitive: box" material="color: rgb(174, 163, 106)"></a-entity>
+      <a-entity position="1 0 0" geometry="primitive: box" material="color: rgb(101, 54, 96)"></a-entity>
+      <a-entity position="2 0 0" geometry="primitive: box" material="color: rgb(42, 37, 43)"></a-entity>
+      <a-entity position="3 0 0" geometry="primitive: box" material="color: rgb(184, 162, 51)"></a-entity>
+    </a-entity>
+
+    <a-entity position="-1 1 -1">
+      <a-entity position="0 0 0" geometry="primitive: box" material="color: rgb(67, 85, 137)"></a-entity>
+      <a-entity position="1 0 0" geometry="primitive: box" material="color: rgb(125, 147, 130)"></a-entity>
+      <a-entity position="2 0 0" geometry="primitive: box" material="color: rgb(210, 163, 56)"></a-entity>
+      <a-entity position="3 0 0" geometry="primitive: box" material="color: rgb(36, 38, 71)"></a-entity>
+    </a-entity>
+
+    <a-entity position="-1 0 -1">
+      <a-entity position="0 0 0" geometry="primitive: box" material="color: rgb(130, 43, 23)"></a-entity>
+      <a-entity position="1 0 0" geometry="primitive: box" material="color: rgb(40, 62, 145)"></a-entity>
+      <a-entity position="2 0 0" geometry="primitive: box" material="color: rgb(189, 136, 44)"></a-entity>
+      <a-entity position="3 0 0" geometry="primitive: box" material="color: rgb(146, 33, 23)"></a-entity>
+    </a-entity>
+
+    <a-entity camera look-controls position="0.5 1 2"></a-entity>
+
+  </a-scene>
   </body>
 </html>
